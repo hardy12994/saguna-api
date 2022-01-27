@@ -3,6 +3,7 @@
 		"url": "mongodb://localhost:27017/saguna"
 	},
 	"server": {
-		"port": "9000"
+		"port": "9000",
+		"env": "local"
 	}
 }

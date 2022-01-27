@@ -1,5 +1,26 @@
+# To Run this code
 
-# Associates Masters API's
+- Step 1: Clone the repository
+- Open VSCode, Open the Cloned folder from VSCode
+- Step 2: Open VSCode CMD, Run this command `npm install`
+- Step 3: Now Run `npm start`
+
+
+If you see your CMD with these lines, then it means your server is up. Cheers!!!
+
+```
+  [app] listening on 9000
+  listening on 9000
+  environment is LOCAL
+  DB Connected
+```
+
+If you face any issues please connect with me, i will happy to help you!
+
+
+# API's Docs
+
+## Associates Masters API's
 
 ### Create Associates Masters API
 URL 
@@ -37,7 +58,7 @@ associateName // default is ''
 
 
 
-# Specialization Masters API's
+## Specialization Masters API's
 
 ### Create Specialization Masters API
 URL 

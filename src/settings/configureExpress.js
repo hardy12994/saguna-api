@@ -18,7 +18,7 @@ const generateExpress = () => {
 		generate(serverConfig.port, 'src/apis' , (err, app, server) => {
 			if (err) return rej(err);
 			console.log(`listening on ${serverConfig.port}`);
-			console.log(`environment is ${process.env.NODE_ENV.toUpperCase()}`);
+			console.log(`environment is ${serverConfig.env.toUpperCase()}`);
 			addConfigurations(app);
 			global.app = app;
 			return res({ app, server });
